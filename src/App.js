@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+// import Home from'./Components/Home';
 
-function App() {
+// function App() {
+//   const name ="krish"
+//   // inserting handleNameChange function
+//   const handleNameChange = () => {
+//     const names =['Bob','Dave','sam'];
+//     const int = Math.floor(Math.random()*3);
+//     return names[int];
+//   }
+
+//   return (
+//     <div>
+//       <p>{name}</p>
+//       <p>{1+1}</p>
+//       <p>{2===2}</p>
+//       <h3>React Application</h3>
+//       <p>Hello {name}</p>
+//       {/* <Home /> */}
+//       <p>Hello {handleNameChange()}!</p>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+//Above code we are using event handleName function
+
+import React from 'react'
+import Header from './Components/Header'
+import Content from './Components/Content'
+
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h3> App component</h3>
+      <Header />
+      <Content />
     </div>
-  );
+  )
 }
-
-export default App;
