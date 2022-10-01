@@ -50,6 +50,7 @@
 import Header from './Components/Header';
 import Content from './Components/Content';
 import Footer from './Components/Footer';
+import Usestate from './Components/Usestate';
 
 function App() {
 
@@ -57,6 +58,7 @@ function App() {
     <div className="App">
       <Header />
       <Content />
+      <Usestate />
       <Footer />
     </div>
   );

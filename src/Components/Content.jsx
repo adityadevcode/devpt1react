@@ -48,7 +48,7 @@ const handleClick5 = (e) => {
          New Paragraph!
          </p>
 
-          {/* if we keep () it will call immediately */}
+        {/* if we keep () it will call immediately */}
           <button onClick={handleClick}>Click IT</button>
          {/* we need anonynous function below */}
           <button onClick={() => {handleClick2('krishna')}}>Click IT</button>
