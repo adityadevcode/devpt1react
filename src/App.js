@@ -27,17 +27,39 @@
 
 //Above code we are using event handleName function
 
-import React from 'react'
-import Header from './Components/Header'
-import Content from './Components/Content'
+// import React from 'react'
+// import Header from './Components/Header'
+// import Content from './Components/Content'
+// import Footer from './Components/Footer'
 
 
-export default function App() {
+// export default function App() {
+//   return (
+//     <div>
+//       <h3> App component</h3>
+//       <Header />
+//       <Content />
+//       <Footer />
+//     </div>
+//   )
+// }
+
+//styled components
+// inside css styling  
+
+import Header from './Components/Header';
+import Content from './Components/Content';
+import Footer from './Components/Footer';
+
+function App() {
+
   return (
-    <div>
-      <h3> App component</h3>
+    <div className="App">
       <Header />
       <Content />
+      <Footer />
     </div>
-  )
+  );
 }
+
+export default App;
