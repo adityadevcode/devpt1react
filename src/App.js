@@ -50,8 +50,6 @@
 import Header from './Components/Header';
 import Content from './Components/Content';
 import Footer from './Components/Footer';
-import {useState} from 'react';
-
 
 function App() {
     const [items, setItems] = useState([
@@ -88,16 +86,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Header title ="Grocerie" />  passing props*/}
-      {/* <Header /> not passing props */}
-      <Header />
-      <Content
-      // we are passing all props we are drilling all done from app to content
-      items ={items}
-      handleCheck ={handleCheck}
-      handleDelete ={handleDelete}
-      />
-      <Footer />
+
     </div>
   );
 }
