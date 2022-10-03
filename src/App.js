@@ -50,14 +50,20 @@
 import Header from './Components/Header';
 import Content from './Components/Content';
 import Footer from './Components/Footer';
+import Usestate from './Components/Usestate';
+import Sometate from './Components/Sometate';
+import Listskey from './Components/Listskey';
 
 function App() {
 
   return (
     <div className="App">
-      <Header />
+      {/* <Header />
       <Content />
-      <Footer />
+      <Usestate />
+      <Sometate /> */}
+      <Listskey />
+      {/* <Footer /> */}
     </div>
   );
 }
