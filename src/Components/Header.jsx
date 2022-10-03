@@ -46,17 +46,36 @@
 // create App.css seperate file
 
 
-const Header = () => {
+// const Header = (props) => {
+
+//     return (
+//         <header>
+//             <h1>{props.title}</h1>
+//         </header>
+//     )
+// }
+
+// export default Header;
+
+// destructure props
+
+const Header = ({title}) => {
 
     return (
         <header>
-            <h1>Groceries List</h1>
+            <h1>{title}</h1>
         </header>
     )
 }
 
+// default props
+Header.defaultProps = {
+    title:"Default Title"
+}
+
 export default Header;
-
-
+// here parent component is app.js and child is header
+// we are passing props from app.js and receiving in header  comp
+// we can destructure the props
 
 
